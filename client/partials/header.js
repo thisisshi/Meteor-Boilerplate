@@ -4,11 +4,3 @@ Template.Header.events({
     Meteor.logout();
   }
 });
-
-
-Template.Header.onRendered(function(){
-  console.log('hello');
-  $(".button-collapse").sideNav({
-    closeOnClick:true
-  });
-});
